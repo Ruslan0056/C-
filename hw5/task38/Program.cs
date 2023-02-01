@@ -40,4 +40,4 @@ PrintArray(array);
 FindMaxAndMin(array, out double max, out double min);
 System.Console.WriteLine($"Максимальное число массива {max}, минимальное число массива {min}.");
 
-
+System.Console.WriteLine("Разница между максимальным и минимальным числом равна " + (max - min) + ".");
